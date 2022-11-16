@@ -87,6 +87,7 @@ public class GerenciadoraContasTest_Ex6 {
 		/* ========== Verifica��es ========== */
 		
 		//Primeira etapa nao permitida a tranferencia
+		//Lembrar que foi modificada a regra de negocio do Banco no metodo "trasfereValor"
 		/*
 		assertFalse(sucesso);
 		assertThat(conta01.getSaldo(), is(100.0));
